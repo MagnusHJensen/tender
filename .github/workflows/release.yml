@@ -2,6 +2,11 @@ name: Release
 
 on: ["create"]
 
+permissions:
+  contents: read
+  packages: write
+
+
 jobs:
   build:
     if: github.ref_type == 'tag'

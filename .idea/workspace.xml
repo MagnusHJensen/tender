@@ -5,83 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c715cf40-7f01-42f2-9f73-84554a44b546" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fd9fe8c-ed40-4d37-87fc-5e2a12a42ecf.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fd9fe8c-ed40-4d37-87fc-5e2a12a42ecf/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/common/tender.common.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/common/tender.common.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/fabric/tender.fabric.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/fabric/tender.fabric.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/fabric/tender.fabric.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/neoforge/tender.neoforge.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/neoforge/tender.neoforge.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Client___fabric__fabric.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Server___fabric__fabric.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/multiloader-api.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/multiloader-common.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/multiloader-loader.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/Capability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/EconomyProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/EconomyProviderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/Tender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/TenderAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/TransactionResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/CommonClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/ProviderRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/TenderAPIImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/commands/CommandHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/config/ServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/fallback/FallbackProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/platform/Services.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/platform/services/IPlatformHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/storage/TenderStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/storage/sqlite/Migrations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/storage/sqlite/SQLiteStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/META-INF/services/dk.magnusjensen.tender.api.EconomyProvider" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/pack.mcmeta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/tender.mixins.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/dk/magnusjensen/tender/TenderFabric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/dk/magnusjensen/tender/platform/FabricPlatformHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/resources/META-INF/services/dk.magnusjensen.tender.platform.services.IPlatformHelper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fabric/src/main/resources/tender.fabric.mixins.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neoforge/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/dk/magnusjensen/tender/TenderNeoForge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/dk/magnusjensen/tender/platform/NeoForgePlatformHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/services/dk.magnusjensen.tender.platform.services.IPlatformHelper" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/neoforge/src/main/resources/tender.neoforge.mixins.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/release.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +116,12 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/neoforge/src/main/resources" />
+      <recent name="$PROJECT_DIR$/fabric/src/main/resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Gradle.tender [:common-api:publish]">
     <configuration name="NeoForge Client (:neoforge)" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
@@ -373,6 +303,15 @@
       <option name="presentableId" value="Default" />
       <updated>1778014045121</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1778958685845</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1778958685845</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
