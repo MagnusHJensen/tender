@@ -1,0 +1,12 @@
+{
+  "client": [],
+  "compatibilityLevel": "JAVA_21",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8",
+  "mixins": [],
+  "package": "dk.magnusjensen.tender.mixin",
+  "required": true,
+  "server": []
+}

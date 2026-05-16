@@ -1,0 +1,82 @@
+plugins {
+    id 'multiloader-loader'
+    id 'net.neoforged.moddev'
+
+    id "com.modrinth.minotaur" version "2.+"
+    id "io.github.CDAGaming.cursegradle" version "1.6.1"
+}
+
+neoForge {
+    version = neoforge_version
+    // Automatically enable neoforge AccessTransformers if the file exists
+    def at = project(':common').file('src/main/resources/META-INF/accesstransformer.cfg')
+    if (at.exists()) {
+        accessTransformers.from(at.absolutePath)
+    }
+    parchment {
+        minecraftVersion = parchment_minecraft
+        mappingsVersion = parchment_version
+    }
+
+    runs {
+        configureEach {
+            systemProperty('neoforge.enabledGameTestNamespaces', mod_id)
+            ideName = "NeoForge ${it.name.capitalize()} (${project.path})" // Unify the run config names with fabric
+        }
+        client {
+            client()
+        }
+        data {
+            data()
+
+            // DataGen can be run by - "./gradlew :neoforge:runData" in Terminal.
+            // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+
+        }
+        server {
+            server()
+        }
+    }
+    mods {
+        "${mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+dependencies {
+    jarJar(implementation("org.xerial:sqlite-jdbc:3.53.0.0"))
+    additionalRuntimeClasspath("org.xerial:sqlite-jdbc:3.53.0.0")
+}
+
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+modrinth {
+    token = System.getenv("MODRINTH_TOKEN")
+    projectId = "oZjrGe81" // Required, must be a string, ID of Modrinth project
+    versionName = "${mod_name} (NeoForge) - v${version} - ${minecraft_version}"
+    versionType = "release"
+    uploadFile = jar
+    gameVersions = ["26.1", "26.1.1", "26.1.2"]
+    loaders = ["neoforge"]
+    changelog = rootProject.file("CHANGELOG.md").text
+}
+
+curseforge {
+    project {
+        apiKey = System.getenv("CURSEFORGE_TOKEN")
+
+        id = "1539275"
+        releaseType = "release"
+
+
+        changelog = rootProject.file("CHANGELOG.md").text
+        changelogType = "markdown"
+        gameVersionStrings = ["26.1", "26.1.1", "26.1.2", "NeoForge"]
+        mainArtifact(jar) {
+            it.displayName = "${mod_name} (NeoForge) - v${version} - ${minecraft_version}"
+        }
+    }
+}

@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c715cf40-7f01-42f2-9f73-84554a44b546" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/release.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fd9fe8c-ed40-4d37-87fc-5e2a12a42ecf.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/7fd9fe8c-ed40-4d37-87fc-5e2a12a42ecf/storage_v2/_src_/schema/main.uQUzAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common/tender.common.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/common/tender.common.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/fabric/tender.fabric.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/fabric/tender.fabric.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/fabric/tender.fabric.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/neoforge/tender.neoforge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/neoforge/tender.neoforge.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Client___fabric__fabric.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/Fabric_Server___fabric__fabric.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/multiloader-api.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/multiloader-common.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/buildSrc/src/main/groovy/multiloader-loader.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/Capability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/EconomyProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/EconomyProviderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/Tender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/TenderAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common-api/src/main/java/dk/magnusjensen/tender/api/TransactionResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/CommonClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/ProviderRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/TenderAPIImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/commands/CommandHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/config/ServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/fallback/FallbackProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/platform/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/platform/services/IPlatformHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/storage/TenderStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/storage/sqlite/Migrations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/dk/magnusjensen/tender/storage/sqlite/SQLiteStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/META-INF/services/dk.magnusjensen.tender.api.EconomyProvider" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/pack.mcmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/tender.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/dk/magnusjensen/tender/TenderFabric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/java/dk/magnusjensen/tender/platform/FabricPlatformHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/resources/META-INF/services/dk.magnusjensen.tender.platform.services.IPlatformHelper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fabric/src/main/resources/tender.fabric.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/dk/magnusjensen/tender/TenderNeoForge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/java/dk/magnusjensen/tender/platform/NeoForgePlatformHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/neoforge.mods.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/resources/META-INF/services/dk.magnusjensen.tender.platform.services.IPlatformHelper" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/neoforge/src/main/resources/tender.neoforge.mixins.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tender" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tender" type="f1a62948:ProjectNode" />
+                <item name="common-api" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tender" type="f1a62948:ProjectNode" />
+                <item name="common-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="tender" type="f1a62948:ProjectNode" />
+                <item name="common-api" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="publishing" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MagnusHJensen&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:MagnusHJensen/tender.git",
+    "accountId": "c7e0f81b-4a5f-4b2a-85e9-00d5646439df"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3DJxbXXG9mdIs5Hge0AdYJOt79q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build tender.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
+    "Gradle.tender [:common-api:publish].executor": "Run",
+    "Gradle.tender [:fabric:runClient].executor": "Run",
+    "Gradle.tender [:fabric:runServer].executor": "Debug",
+    "Gradle.tender [:neoforge:resolvableConfigurations].executor": "Run",
+    "Gradle.tender [:neoforge:runServer].executor": "Debug",
+    "Gradle.tender [build].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "1.21.1",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/magje/code/mods/tender/neoforge/src/main/resources",
+    "onboarding.tips.debug.path": "/Users/magje/code/mods/tender/common-api/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.23333333",
+    "settings.editor.selected.configurable": "copyright.profiles"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.tender [:common-api:publish]">
+    <configuration name="NeoForge Client (:neoforge)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="tender.neoforge.main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/neoforge/build/moddev/clientRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/neoforge/build/moddev/clientRunVmArgs.txt -Dfml.modFolders=tender%%$PROJECT_DIR$/neoforge/build/classes/java/main:tender%%$PROJECT_DIR$/neoforge/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neoforge/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeoForge Data (:neoforge)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="tender.neoforge.main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/neoforge/build/moddev/dataRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/neoforge/build/moddev/dataRunVmArgs.txt -Dfml.modFolders=tender%%$PROJECT_DIR$/neoforge/build/classes/java/main:tender%%$PROJECT_DIR$/neoforge/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neoforge/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeoForge Server (:neoforge)" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="net.neoforged.devlaunch.Main" />
+      <module name="tender.neoforge.main" />
+      <option name="PROGRAM_PARAMETERS" value="@$PROJECT_DIR$/neoforge/build/moddev/serverRunProgramArgs.txt" />
+      <option name="VM_PARAMETERS" value="@$PROJECT_DIR$/neoforge/build/moddev/serverRunVmArgs.txt -Dfml.modFolders=tender%%$PROJECT_DIR$/neoforge/build/classes/java/main:tender%%$PROJECT_DIR$/neoforge/build/resources/main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/neoforge/run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tender [:common-api:publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":common-api:publish" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="tender [:fabric:runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":fabric:runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="tender [:fabric:runServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":fabric:runServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="tender [:neoforge:runServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":neoforge:runServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="tender [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <ExternalSystemDebugDisabled>false</ExternalSystemDebugDisabled>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <GradleProfilingDisabled>false</GradleProfilingDisabled>
+      <GradleCoverageDisabled>false</GradleCoverageDisabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.tender [:common-api:publish]" />
+        <item itemvalue="Gradle.tender [build]" />
+        <item itemvalue="Gradle.tender [:fabric:runServer]" />
+        <item itemvalue="Gradle.tender [:neoforge:runServer]" />
+        <item itemvalue="Gradle.tender [:fabric:runClient]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c715cf40-7f01-42f2-9f73-84554a44b546" name="Changes" comment="" />
+      <created>1778014045121</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778014045121</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/common-api/src/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

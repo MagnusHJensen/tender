@@ -1,0 +1,42 @@
+plugins {
+    id 'multiloader-common'
+}
+
+configurations {
+    commonJava {
+        canBeResolved = true
+    }
+    commonResources {
+        canBeResolved = true
+    }
+    commonApiJava {
+        canBeResolved = true
+    }
+}
+
+dependencies {
+    compileOnly(project(':common')) {
+        capabilities {
+            requireCapability "$group:$mod_id-common-$minecraft_version"
+        }
+    }
+    compileOnly(project(':common-api')) {
+        capabilities {
+            requireCapability "$group:$mod_id-common-api-$minecraft_version"
+        }
+    }
+
+    commonJava         project(path: ':common',     configuration: 'commonJava')
+    commonResources    project(path: ':common',     configuration: 'commonResources')
+    commonApiJava      project(path: ':common-api', configuration: 'commonJava')
+}
+
+tasks.named('compileJava', JavaCompile) {
+    dependsOn(configurations.commonJava, configurations.commonApiJava)
+    source(configurations.commonJava, configurations.commonApiJava)
+}
+
+processResources {
+    dependsOn(configurations.commonResources)
+    from(configurations.commonResources)
+}

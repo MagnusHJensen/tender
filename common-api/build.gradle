@@ -1,0 +1,33 @@
+plugins {
+    id 'multiloader-api'
+    id 'maven-publish'
+}
+
+configurations {
+    commonJava {
+        canBeResolved = false
+        canBeConsumed = true
+    }
+}
+
+artifacts {
+    commonJava sourceSets.main.java.sourceDirectories.singleFile
+}
+
+dependencies {
+    compileOnly 'org.jetbrains:annotations:24.1.0'
+}
+
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/magnushjensen/tender"
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+
+        }
+    }
+}
