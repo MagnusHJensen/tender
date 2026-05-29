@@ -50,13 +50,13 @@ modrinth {
     versionName = "${mod_name} (Fabric) - v${version} - ${minecraft_version}"
     versionType = "release"
     uploadFile = jar
-    gameVersions = ["26.1", "26.1.1", "26.1.2"]
+    gameVersions = ["1.21.1"]
     loaders = ["fabric"]
     changelog = rootProject.file("CHANGELOG.md").text
 
     dependencies {
         required.project "fabric-api"
-        optional.project "forge-config-api-port"
+        required.project "forge-config-api-port"
     }
 }
 
@@ -70,7 +70,7 @@ curseforge {
 
         changelog = rootProject.file("CHANGELOG.md").text
         changelogType = "markdown"
-        gameVersionStrings = ["26.1", "26.1.1", "26.1.2", "Fabric"]
+        gameVersionStrings = ["1.21.1", "Fabric"]
         mainArtifact(jar) {
             it.displayName = "${mod_name} (Fabric) - v${version} - ${minecraft_version}"
 
