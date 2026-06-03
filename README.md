@@ -18,15 +18,7 @@ Tender provides a clean and consistent API to manage player balances with ease.
 
 ## Installation
 
-```groovy
-repositories {
-    maven { url 'https://jitpack.io' }
-}
-
-dependencies {
-    compileOnly 'com.github.MagnusHJensen:Tender:VERSION'
-}
-```
+TBD
 
 ## Usage
 
